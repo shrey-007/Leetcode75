@@ -12,6 +12,7 @@ import java.util.HashMap;
  * Return the maximum number of operations you can perform on the array
  * */
 public class MaxNumberOfKSumPairs {
+    // similar to 2 sum
 
         public int maxOperations(int[] nums, int k) {
             HashMap<Integer,Integer> hm= new HashMap<>();

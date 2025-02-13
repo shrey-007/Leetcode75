@@ -12,7 +12,7 @@ public class IncreasingTripletSubsequence {
 
     // brute force is generate all i,j,k combinations using 3 loops
 
-    // optimised approach
+    // optimised approach(This is a very good question)
     public boolean increasingTriplet(int[] nums) {
 
         int n=nums.length;
@@ -33,8 +33,6 @@ public class IncreasingTripletSubsequence {
 
 
         return false;
-
-
     }
 
 }
