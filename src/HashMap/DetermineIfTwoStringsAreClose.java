@@ -49,7 +49,8 @@ public class DetermineIfTwoStringsAreClose {
                 hm2.put(curr,hm2.get(curr)+1);
             }
             else{hm2.put(curr,1);}
-        }System.out.println(hm1);System.out.println(hm2);
+        }
+        System.out.println(hm1);System.out.println(hm2);
         //now compare both hasmaps
         List<Integer> values1 = new ArrayList<>(hm1.values());
         Collections.sort(values1);
@@ -62,8 +63,6 @@ public class DetermineIfTwoStringsAreClose {
 
 
         return values1.equals(values2) && hm1.keySet().equals(hm2.keySet());
-
-
     }
 
 
